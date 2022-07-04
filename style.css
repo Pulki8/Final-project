@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: Inter, system-ui;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 100vw;
+}
+
+main {
+  padding: 32px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 1.25;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+button {
+  cursor: pointer;
+}
+
+
+
+.white {
+  color: #f7fafc !important;
+}
+
+.purple {
+  color: #6415ff;
+}
+
+.row {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.container {
+  padding: 80px 0;
+}
+
+.btn {
+  
+  padding: 12px 32px;
+  background-color: #6415ff;
+  border-radius: 100px;
+}
+
+
+
+/* NAV BAR  */
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+  font-size: 24px;
+  letter-spacing: 0.6px;
+  color: #243e63;
+  padding-bottom: 4px;
+}
+
+.logo__img {
+  width: 40px;
+  height: 40px;
+  margin-right: 12px;
+}
+
+.nav__links {
+  display: flex;
+  align-items: center;
+}
+
+.nav__link {
+  margin: 0 24px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.35px;
+}
+
+.nav__link a {
+  color: #243e63;
+  
+}
+.nav__link:nth-child(5) {
+  margin-left: 48px;
+  margin-right: 0px;
+}
+
+.nav__link--primary a {
+ 
+  margin: 0;
+}
+
+/* HEADER */
+
+.header__description--wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 96px 0;
+}
+
+.header__description {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__description--title {
+  color: #1a202c;
+}
+
+.header__description--para {
+  margin: 18px 0;
+  color: #243e63;
+}
+
+.header__img--wrapper {
+  width: 60%;
+}
+
+.header__img {
+  width: 100%;
+}
+
+.customer__img {
+  opacity: 0.5;
+  margin-top: 16px;
+  padding-right: 128px;
+  display: flex;
+  width: 100%;
+}
+
+.header__description--customers-title {
+  font-size: 12px;
+  color: #a0aec0;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.description__input {
+  padding: 18px;
+  ;
+}
+
+.description__btn {
+  position: absolute;
+}
