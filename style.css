@@ -76,7 +76,7 @@ button {
   border-radius: 100px;
   color: #f7fafc;
   border: none;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
 }
 
@@ -304,7 +304,8 @@ QUALITY
   display: flex;
 }
 
-.quality__description {
+.quality__description,
+.values__description {
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -312,7 +313,8 @@ QUALITY
   max-width: 576px;
 }
 
-.quality__img--wrapper {
+.quality__img--wrapper,
+.value__img--wrapper {
   width: 50%;
   max-width: 640px;
   position: relative;
@@ -321,6 +323,7 @@ QUALITY
 
 .quality__img {
   width: 100%;
+  display: flex;
 }
 
 #quality .light__para {
@@ -354,8 +357,6 @@ STEPS
 
 #steps .row {
   display: flex;
-  
-
 }
 .steps__img--wrapper {
   max-width: 640px;
@@ -418,4 +419,84 @@ STEPS
   font-weight: 500;
   line-height: 2;
   max-width: 320px;
+}
+
+/*
+
+VALUES
+
+*/
+
+#values .row {
+  display: flex;
+}
+
+#values .light__para {
+  margin-top: 16px;
+}
+
+.value__img--wrapper {
+  border: none;
+}
+
+.value__img {
+  width: 100%;
+}
+
+.values__showcase,
+.value__top {
+  display: flex;
+}
+
+.value {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+}
+
+.value__top {
+  align-items: center;
+}
+
+.icon__wrapper {
+  padding: 8px;
+  border-radius: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.dollar__icon {
+  color: rgb(39, 103, 73);
+  background-color: #9ae6b4;
+}
+
+.suitcase__icon {
+  color: rgb(155, 44, 44);
+  background-color: rgb(254, 178, 178);
+}
+
+.value__label {
+  margin-left: 12px;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(36, 62, 99);
+}
+
+.value__bottom {
+  margin-top: 16px;
+  font-weight: normal;
+  color: rgb(113, 128, 150);
+  line-height: 1.625;
+}
+
+.value__btn {
+  width: 160px;
+  margin-top: 36px;
 }
